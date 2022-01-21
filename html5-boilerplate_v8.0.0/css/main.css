@@ -99,15 +99,15 @@ header.content-wrapper {
   align-items: center;
   flex-flow: row wrap;
 }
-header.nav {
+header.header-divider {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
 }
 footer.social-icons {
@@ -141,7 +141,13 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-.features .features-items {
+aside.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+} 
+.features-content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
