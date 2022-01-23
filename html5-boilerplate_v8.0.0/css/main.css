@@ -107,12 +107,12 @@ header.header-divider {
 }
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 
 }
 footer.social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -157,6 +157,22 @@ aside.content-wrapper {
 .reviews {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.reviews .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 50px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 .mission {
