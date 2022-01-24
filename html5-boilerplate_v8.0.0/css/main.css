@@ -86,7 +86,56 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  
+  html {
+    font-size: 16px;
+  }
+   
+  body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #e2e3ed;
+    text-align: left;
+  }
+   
+  ul, 
+  ol {
+    list-style-type: none;
+  }
+   
+  a {
+    color: #e2e3ed;
+    text-decoration: none;
+  }
+   
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.875em;
+  }
+   
+  h3, 
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    margin: 20px 0;
+  }
 
+   
+  p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+   
+  address {
+   font-style: normal;
+  }
+   
+  .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
@@ -199,7 +248,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url ('https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2017/08/hero-image-e1543954927958.png');
+    background-size: cover;
+    background-position: center;
   }
+
   .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -223,6 +276,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-color: forestgreen;
   }
   
   .features h2 {
